@@ -1,0 +1,41 @@
+* , *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    width: 300px;
+    min-height: 100vh;
+    background: #333;
+    float: left;
+    display: none;
+}
+
+.list {
+    list-style: none;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.list:first-child{
+    background-color: #222;
+}
+
+.link{
+    text-decoration: none;
+    color: #eee;
+    font-size: 1.5em;
+}
+
+.list:hover {
+    background-color: #555;
+}
+
+
+
+.bar {
+    padding: 10px 0 0 10px;
+    cursor: pointer;
+    font-size: 2em;
+}
